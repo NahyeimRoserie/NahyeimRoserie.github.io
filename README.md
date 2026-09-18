@@ -5,11 +5,11 @@
     <meta charset="UTF-8">​
     <meta name="viewport" content="width=device-width, initial-
 scale=1.0">​
-    <title>Cats are cool</title>​
+    <title>Web Design, Graphics and Theory</title>​
 </head>​
 <body>​
     <h1>I Com 370 Weekly Progress.</h1>​
-    <h2>I especially like cat memes.</h2>​
+    <h2>In Class excercises.</h2>​
     <img src="https://preview.redd.it/the-original-screaming-crying-cat-
 meme-image-and-the-cat-v0-
 9jtpohdc29pe1.png?width=300&format=png&auto=webp&s=d5ee76c
