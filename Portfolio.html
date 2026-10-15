@@ -81,3 +81,112 @@
     
 </body>
 </html>
+<head>
+    <meta charset="UTF-8">
+    <title>NahyeimRoseriePortfolio</title>
+    
+</head>:root {
+    --dark-color:#05070a;
+    --accent-color:#5863f8;
+    --highlight-color:#fcff3b;
+}
+
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+    font-family:"inter", sans-serif;
+}
+body{
+    background-color: var(--dark-color);
+    color: white;
+}
+
+p{
+    line-height: 1.9;
+    font-size: 1rem;
+
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.wrapper{
+    max-width: 75rem;
+    padding:1.5rem;
+    margin-inline:auto;
+}
+
+.btn{
+    display: inline-flex;
+    background-color:#fff;
+    color: var(--dark-color);
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 0.75rem;
+    align-items: center;
+    transition: all 300ms ease-in-out;
+}
+.btn:hover{
+    transform: translateY(--3px);
+}
+
+    /* Navbar */
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+    }
+    .logo{
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        letter-spacing: 0.125rem;
+    }
+    nav.menu-items{
+        display: flex;
+        gap: 3.75rem;
+        text-transform: uppercase;
+    }
+    nav.menu-items a{
+        transition: all 300ms ease;
+    }
+    nav.menu-items a:hover{
+        color: var(--accent-color);
+    }
+    /* For Port 2..png Section */
+    .Portfolio-content .PortIMG.png{
+        color: #fff;
+        margin-top: 6.25rem;
+        position: relative;
+
+    }
+
+    .Portfolio-content .PortIMG.png{
+        position: absolute;
+        top:-10rem;
+        height: 43.75rem;
+        left: 27.5rem;
+        z-index: -2;
+        opacity: 0.8;
+
+    }
+    .PortIMG.png .image-overlay{
+        position: absolute;
+        top: -10rem;
+        left: 0rem;
+        width: 43.75rem;
+        height: 43.75rem;
+        z-index: -1;
+        width: 50rem;
+        background: linear-gradient(to right, var(--dark-color)60%, transparent);
+    }
+        
